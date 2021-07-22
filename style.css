@@ -1,0 +1,98 @@
+h1 {
+  font-family: Helvetica, sans-serif;
+  color: #000000;
+
+}
+
+h2 {
+  font-family: Impact, sans-serif;
+  color: #000000;
+  size: 32px;
+  font-weight: normal;
+}
+
+h3 {
+  font-family: Helvetica, sans-serif;
+  color: #696969;
+  size: 32px;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 1px;
+}
+
+input[type=text] {
+  padding: 1px 1px 1px 1px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  position: relative;
+  bottom: 5px
+}
+
+hr {
+  width: 100%;
+  height: 3px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #696969;
+}
+.right
+{
+    float: right;
+}
+.container {
+
+  transition: transform .2s; /* Animation */
+  width: 85%;
+  height: 25%;
+  margin: 0 auto;
+}
+
+.container:hover {
+  transform: scale(1.5); /* (150% zoom)*/
+}
+
+.covid_news {
+  display: flex;
+}
+
+.column {
+  flex: 33.3%;
+  padding: 10px;
+}
+.button
+{
+background-color: #e7e7e7;
+color: black;
+float:none;
+width: 150px;
+padding:10px;
+position: absolute;
+left:80%;
+top:150%;
+
+}
+.footer {
+  overflow: hidden;
+  background-color: #333;
+
+  bottom: 0;
+  width: 100%;
+}
+.footer a:hover
+{
+  background-color:black;
+  color: white;
+
+}
+.footer a {
+  float: left;
+  display: block;
+  color: black;
+  background-color:grey;
+  text-align: center;
+  padding: 30px 16px;
+  font-size: 20px;
+}
